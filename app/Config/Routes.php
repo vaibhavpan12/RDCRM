@@ -20,4 +20,6 @@ $routes->get('users', 'Users::index');
 $routes->post('users/create', 'Users::create');
 $routes->post('users/toggle/(:num)', 'Users::toggle/$1');
 $routes->get('activity', 'Activity::index');
+$routes->get('admin/dashboard', 'AdminDashboard::index');
+// $routes->get('admin/dashboard', 'AdminDashboard::index');
 $routes->setAutoRoute(false);
