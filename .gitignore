@@ -49,3 +49,4 @@ pnpm-debug.log*
 *.bak
 *.backup
 *_backup.php
+spark_backup
