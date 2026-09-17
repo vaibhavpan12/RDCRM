@@ -1,0 +1,1 @@
+<?php namespace App\Models; class WeeklyNoteModel extends BaseModel{protected $table='weekly_notes';protected $allowedFields=['material_id','week_key','category','reason_text','created_by'];}

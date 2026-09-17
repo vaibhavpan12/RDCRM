@@ -1,0 +1,1 @@
+<?php namespace App\Models; class ActivityLogModel extends BaseModel{protected $table='activity_logs';protected $allowedFields=['user_id','action','entity_type','entity_id','details'];}

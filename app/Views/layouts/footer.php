@@ -1,0 +1,1 @@
+<?php if(session()->get('logged_in')): ?></div></main></div><?php endif; ?></body></html>

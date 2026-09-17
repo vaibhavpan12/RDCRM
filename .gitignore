@@ -1,0 +1,51 @@
+# CodeIgniter 4
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+
+# Writable files
+/writable/cache/*
+/writable/debugbar/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+
+# Keep writable directories
+!/writable/cache/index.html
+!/writable/debugbar/index.html
+!/writable/logs/index.html
+!/writable/session/index.html
+!/writable/uploads/index.html
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP
+*.log
+*.tmp
+
+# Testing / coverage
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Backup files
+*.bak
+*.backup
+*_backup.php

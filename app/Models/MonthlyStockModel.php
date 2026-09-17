@@ -1,0 +1,1 @@
+<?php namespace App\Models; class MonthlyStockModel extends BaseModel{protected $table='monthly_stock';protected $allowedFields=['material_id','month_key','opening_stock','physical_stock_month_end','good_stock_physical','rejected_stock_physical','notes','created_by','updated_by'];}

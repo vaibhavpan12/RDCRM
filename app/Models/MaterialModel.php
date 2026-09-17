@@ -1,0 +1,1 @@
+<?php namespace App\Models; class MaterialModel extends BaseModel{protected $table='materials';protected $allowedFields=['code','description','vendor_name','unit','monthly_capacity','production_plan','type'];}

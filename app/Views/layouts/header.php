@@ -1,0 +1,1 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= esc($pageTitle??'RD-10 CRM') ?></title><link rel="stylesheet" href="<?= base_url('assets/css/app.css') ?>"></head><body>

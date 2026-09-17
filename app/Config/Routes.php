@@ -1,0 +1,23 @@
+<?php
+namespace Config;
+$routes = Services::routes();
+$routes->get('/', 'Dashboard::index');
+$routes->get('login', 'Auth::login');
+$routes->post('login', 'Auth::attempt');
+$routes->get('logout', 'Auth::logout');
+$routes->get('dashboard', 'Dashboard::index');
+$routes->get('materials', 'Materials::index');
+$routes->post('materials/create', 'Materials::create');
+$routes->get('monthly-stock', 'MonthlyStock::index');
+$routes->post('monthly-stock/save', 'MonthlyStock::save');
+$routes->get('daily-entries', 'DailyEntries::index');
+$routes->post('daily-entries/save', 'DailyEntries::save');
+$routes->post('daily-entries/delete/(:num)', 'DailyEntries::delete/$1');
+$routes->get('reports', 'Reports::index');
+$routes->get('samples', 'Samples::index');
+$routes->get('transfers', 'Transfers::index');
+$routes->get('users', 'Users::index');
+$routes->post('users/create', 'Users::create');
+$routes->post('users/toggle/(:num)', 'Users::toggle/$1');
+$routes->get('activity', 'Activity::index');
+$routes->setAutoRoute(false);
